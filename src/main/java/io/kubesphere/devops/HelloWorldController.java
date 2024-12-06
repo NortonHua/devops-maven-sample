@@ -14,7 +14,6 @@ public class HelloWorldController {
 
     @RequestMapping("/")
     public String sayHello() {
-        System.out.println("adfsalfldsjafd");
-        return "Really appreciate your star, that's the power of our life.";
+        return "Really appreciate your star, that's the power of our life. Hi , 儿子";
     }
 }
